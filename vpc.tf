@@ -1,5 +1,6 @@
 module "network" {
   source  = "app.terraform.io/dazzle/network/google"
+  project_id = var.project
   version = "3.4.0"
   # insert required variables here
 subnets = [
